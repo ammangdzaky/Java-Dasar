@@ -32,5 +32,15 @@ public class IfStatement {
             System.out.println("Aku tidak senang");
         }
 
+        var isMc = true;
+        String status;
+        if (isMc == false) {
+            status = "Kroco";
+            System.out.println("Aku "+ status);
+        } else {
+            status = "Main Character";
+            System.out.println("Aku "+ status);
+        }
+
     }
 }

@@ -24,5 +24,9 @@ public class Main {
         var Nilai = 70;
         var Keterangan = Nilai > 75 ? "lulus" : "tidak lulus";
         System.out.println(Keterangan);
+
+        var isMc = false;
+        var status = isMc == true? "Aku main char" : "Aku Kroco";
+        System.out.println(status);
     }
 }

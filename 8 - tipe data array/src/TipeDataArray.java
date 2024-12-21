@@ -59,5 +59,6 @@ public class TipeDataArray {
 
         String[] orangSukses1 = orangSukses[0];
         System.out.println(orangSukses1[1]);
+
     }
 }

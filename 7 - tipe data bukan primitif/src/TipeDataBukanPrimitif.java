@@ -31,6 +31,7 @@ public class TipeDataBukanPrimitif {
         // primer -> bukan primer
         int integer = 1;
         Integer integerObject = integer;
+        // untuk casting ke tipe data yang lain (int -> short misalnay), maka menggunakan method
         Short shortObject = integerObject.shortValue();
         Float floatObject = integerObject.floatValue();
         // Short shortObject = integer.ShortValue(); -> ini eror
